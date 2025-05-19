@@ -1,0 +1,107 @@
+.start1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('myimage.jpg');
+    background-size: cover;
+}
+
+.wrapper1{
+    width:380px;
+    height: 400px;
+    background:transparent;
+    border: 2px solid rgba(255,255, 255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0, 0, .2);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+   
+}
+.wrapper1 h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper1.inputbox1{
+    position:relative;
+    width: 100%;
+    height: 50px;
+}
+.inputbox1 input{
+    width: 90%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    font-size: 17px;
+    color:rgb(0, 0, 0);
+    text-indent: 10px;
+    margin-left: 15px;
+
+}
+.inputbox1 input::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+   
+}
+.inputbox1 .icon1{
+    position: absolute;
+    right: 30px;
+    top:39%;
+    left: 79%;
+    transform: translateY( -50% );
+    font-size: 25px;
+    color: black;
+}
+.inputbox1 .licon1{
+    position: absolute;
+    right: 20px;
+    top:53%;
+    left: 79%;
+    transform: translateY( -50% );
+    font-size: 20px;
+    color: black;
+}
+.inputbox1 .licon21{
+    position: absolute;
+    right: 20px;
+    top:68%;
+    left: 79%;
+    transform: translateY( -50% );
+    font-size: 20px;
+    color: black;
+}
+
+.wrapper1 button{
+  
+    width: 50%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0, 0, .1);
+    cursor: pointer;
+    font-size:16px ;
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    margin-left: 90px;
+   
+}
+
+.wrapper1 .noaccount{
+    font-size:14.5px ;
+    text-align: center;
+    margin: 20px 0 15px;
+    color: black;
+}
+.noaccount p a
+{
+    color:#000000;
+    text-decoration: none;
+    font-weight: 600;
+}
